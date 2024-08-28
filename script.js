@@ -28,6 +28,13 @@ listContainer.addEventListener("click", function(e) {
     }
 }, false);
 
+document.getElementById("input-box").addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.key === 'Enter') {
+        document.getElementById("submit").click();
+    }
+});
+
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }

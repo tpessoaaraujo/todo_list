@@ -8,7 +8,7 @@
 main {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #fe9c91, #ff5945);
     padding: 10px;
 }
 
@@ -70,6 +70,7 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    display: flex;
 }
 
 ul li::before {
@@ -81,7 +82,7 @@ ul li::before {
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 9px;
     left: 8px;
 }
 

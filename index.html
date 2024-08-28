@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>To-Do List App</title>
@@ -13,12 +14,13 @@
             <h2>To-Do List <img src="images/icon.png" alt="To-Do App Icon"></h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Escreva sua tarefa">
-                <button onclick="addTask()">Adicionar</button>
+                <button onclick="addTask()" id="submit">Adicionar</button>
             </div>
             <ul id="list-container">
                 <!-- <li>Atividade 01</li> -->
             </ul>
         </div>
     </main>
+    <script src="https://kit.fontawesome.com/76e9fa9b83.js" crossorigin="anonymous"></script>
 </body>
 </html>
