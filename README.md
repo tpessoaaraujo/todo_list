@@ -7,6 +7,6 @@ Hospedado através do Github Pages: https://tpessoaaraujo.github.io/todo_list/
 # Screenshot
 Aqui está uma screenshot do projeto :
 
-![img](https://github.com/tpessoaaraujo/todo_list/images/project)
+![img](https://github.com/tpessoaaraujo/todo_list/images/project.png)
 
 #### Desenvolvido por Thiago Pessoa Araujo
